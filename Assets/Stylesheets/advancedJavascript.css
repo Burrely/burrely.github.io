@@ -1,0 +1,46 @@
+
+
+.content > .advancedJavascript {
+    position: relative;
+    padding: 40px;
+}
+
+.advancedJavascript.pathFollower {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    color: var(--tint-color);
+    border-radius: 100%;
+}
+
+.advancedJavascript.pathFollower > h1 {
+    transform: scale(2);
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.advancedJavascript #uwu_path {
+    visibility: visible;
+}
+
+.advancedJavascript #ChartJS+div {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 32px;
+}
+
+.advancedJavascript #ChartJS+div > * {
+    width: 80px;
+    margin: 0 10px;
+}
+
+.advancedJavascript#ThreeJSExample canvas {
+    transition: 0.5s;
+}
+
+.advancedJavascript#ThreeJSExample canvas:hover {
+    transform: scale(1.25);
+}

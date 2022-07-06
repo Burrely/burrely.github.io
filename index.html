@@ -1,56 +1,36 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="nl">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Sammy Khachane</title>
+        
+        <script src="Assets/Scripts/navigationHandler.js"></script>
 
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="Assets/Stylesheets/stylesheet.css"/>
 
-        <title>DFC Timer</title>
+        <!-- Meta tags -->
+        <meta content="Sammy's Portfolio" property="og:title">
+        <meta content="Check out my boring school assignments uvu!" property="og:description">
+        <meta content='http://i421394.hera.fhict.nl/Assets/Graphics/discord.png' property='og:image'>
+        <meta name="theme-color" content="#F56600">
+        <meta name="twitter:card" content="summary_large_image">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="Assets/style.css" />
-        <script src="Assets/main.js" defer></script>
-
+        <link type="application/json+oembed" href="Assets/JSON/discord embed data.json"/>
+        
     </head>
-
-    <body>
-
-        <div class="background"></div>
-
-        <!-- Header -->
-        <div class="banner_wrapper">
-            <div class="banner"> </div>
-            <div class="banner_footer">
-                <a href="http://dutchfurcon.com/">
-                    Officiële site
-                </a>
-            </div>
+    <body class="home">
+        <div id="Header">
+            <img class="logo"/>
+            <nav>
+                <a href="index.html" class="active"><h2>Home</h2></a>
+                <a href="portfolio.html"><h2>Portfolio</h2></a>
+            </nav>
         </div>
-
-        <!-- Content -->
-        <main>
-            <h1 class="title">DFC 2018 edition Timer</h1>
-            <div id="timer_container" class="timer_page">
-
-                <ul>
-                    <li>
-                        <h2>Days left:</h2>
-                        <h3 id="DayCounter"></h3>
-                    </li>
-                    <li>
-                        <h2>Time left:</h2>
-                        <h3 id="TimeCounter"></h3>
-                    </li>
-                </ul>
-                
-
-            </div>
-        </main>
-
-        <!-- Footer -->
-
-
+        <header>
+            <h1>Creatieve Hobbyist, Junior Game <br/>& Front-end Developer </h1>
+            <h3>Ik ontwikkel producten van zowel technisch als visueel hoogwaardige kwaliteit!</h3>
+        </header>
     </body>
-
 </html>

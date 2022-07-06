@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+    <html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Sammy Khachane</title>
+        
+        <!-- Libraries -->
+        <script src="Assets/Scripts/libraries/anime.min.js"></script>
+        <script src="Assets/Scripts/libraries/Chart.min.js"></script>
+        <script src="Assets/Scripts/libraries/three.min.js"></script>
+        <script src="Assets/Scripts/libraries/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        <script src="Assets/Scripts/navigationHandler.js"></script>
+        <script src="Assets/Scripts/articleHandler.js"></script>
+        <script src="Assets/Scripts/spoilerHandler.js"></script>
+
+        <script src="Assets/Scripts/advancedDevelopment.js"></script>
+
+        
+        <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="Assets/Stylesheets/highlight.js/a11y-dark.css">
+        <link type="text/css" rel="stylesheet" href="Assets/Stylesheets/stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="Assets/Stylesheets/advancedJavascript.css"/>
+        <link type="text/css" rel="stylesheet" href="Assets/Stylesheets/Chart.min.css"/>
+
+        <!-- Meta tags -->
+        <meta content="Sammy's Portfolio" property="og:title">
+        <meta content="Check out my boring school assignments uvu!" property="og:description">
+        <meta content='http://i421394.hera.fhict.nl/Assets/Graphics/discord.png' property='og:image'>
+        <meta name="theme-color" content="#FFAE00">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <link type="application/json+oembed" href="Assets/JSON/discord embed data.json"/>
+        
+    </head>
+    <body class="portfolio">
+        <div id="Header">
+            <img class="logo"/>
+            <nav>
+                <a href="index.html"><h2>Home</h2></a>
+                <a href="portfolio.html" class="active"><h2>Portfolio</h2></a>
+            </nav>
+        </div>
+        <header>
+            <h1>Portfolio</h1>
+            <h3>Bekijk hier mijn projecten, van development tot design.</h3>
+        </header>
+        <main>
+            <div id="FilterList">
+                <div class="button-primary active"><h4>Alle projecten</h4></div>
+                <div class="button-primary"><h4>Interactive media</h4></div>
+                <div class="button-primary"><h4>Development</h4></div>
+                <div class="button-primary"><h4>Design</h4></div>
+                <div class="button-primary"><h4>Research</h4></div>
+                <div class="button-primary"><h4>Communication</h4></div>
+                <div class="button-primary"><h4>Professional identity</h4></div>
+            </div>
+            <p id="FilterText" class="hint">Alle projecten worden nu aangetoond, Gebruik de filter lijst om te filteren per onderdeel.</p>
+            <section id="Articles">
+
+                <article class="">
+                    <div class="headerImage">
+                        <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/10/1477673935anime-logo.png"/>
+                    </div>
+                    <section class="tagsList">
+                        <div class="button-primary"><h4>Development</h4></div>
+                        <div class="button-primary"><h4>Research</h4></div>
+                        <div class="button-primary"><h4>Professional identity</h4></div>
+                    </section>
+                    <section class="content">
+                        <section>
+                            <h1>Advanced Javascript</h1>
+                            <p>
+                                Advanced Javascript is een van de vier specialisaties van semester 2. In deze specialisatie deed ik onderzoek naar Javascript libraries, vervolgens ben ik met deze libraries aan de slag gegaan om poc’s te maken en uiteindelijk heb ik met behulp van een van deze libraries een prototype gemaakt voor mijn portfolio.
+                            </p>
+                            <figure>
+                                <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/10/1477673935anime-logo.png"/>
+                                <figcaption>Het logo van anime.js, een van mijn gebruikte libraries in deze specialisatie.</figcaption>
+                            </figure>
+                        </section>
+                        <section>
+                            <h2>Proces</h2>
+                            <p>
+                                De specialisatie bestond uit drie onderdelen waarbij we elk een week kregen.                          
+                            </p>
+                            <h3>Week 1</h3>
+                            <div class="spoiler">
+                                <div class="content">
+
+                                    <p>
+                                        Ik heb een longlist van libraries ontwikkelt uit libraries die mij interessant leken. Ik heb hiervoor Google en Github gebruikt, vervolgens heb ik deze lijst verwerkt in Google Sites omdat ik destijds geen portfolio site had. Vervolgens heb ik dit ingeleverd. De Google Sites pagina is <a href="https://sites.google.com/view/fhict-skhachane-spec-advdev/week-1">hier</a> te vinden en heeft verder buiten dit artikel geen meerwaarde.
+                                    </p>
+
+                                    <h4>Longlist</h4>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <ol>
+                                                <li>
+                                                    <h4><a href="https://animejs.com/">Anime.js</a></h4>
+                                                    <p>Anime.js is een library specifiek ontworpen voor animaties. Met de komst van CSS3 is het gebruik maken van Javascript voor animaties nogal vervreemd geworden voor front-end web developers. Maar wat als je meer kan doen met animaties? - Anime.js is hier het antwoord voor. Niet alleen kan je met Anime.js meer soorten animaties op een makkelijkere manier maken; je kan ook meer interactie creeëren tussen animaties en jouw front-end creatie. Denk aan bijvoorbeeld het live aanpassen van beweging, en de mogelijkheid om callbacks te hebben waardoor je iets kan laten gebeuren wanneer een animatie is afgerond, of bijvoorbeeld halverwege is!</p>
+                                                    <p>Om voorbeelden te bekijken van wat de mogelijkheden zijn; <a href="https://www.google.com/url?q=https%3A%2F%2Fanimejs.com%2Fdocumentation&sa=D&sntz=1&usg=AFQjCNE2aFcyROdwuR-NDkXtpBMFRfb2gQ">klik hier</a>.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/rishabhp/bideo.js">Bideo</a></h4>
+                                                    <p>Een heel simpele library, wat eigenlijk meer te vergelijken valt als een code snippet. Het laat je een video als background van een element gebruiken, bijvoorbeeld de body of dergelijke. Voornamelijk te gebruiken uit gemak.</p>
+                                                    <p>Om een voorbeeld te zien; <a href="https://www.google.com/url?q=https%3A%2F%2Frishabhp.github.io%2Fbideo.js%2F&sa=D&sntz=1&usg=AFQjCNHO6AL95XZZOK1xDW4Nof7Wg2LLTA">klik hier</a>.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://www.chartjs.org/">Chart.js</a></h4>
+                                                    <p>Chart.js is een library waarmee je met gemak grafieken voor je data kan maken. De grafieken kunnen op vele manieren gevisualiseerd worden met Chart.js, ook geeft het je veel vrijheid in hoe je je grafieken wilt visualiseren. Deze library bespaart je veel tijd wanneer je veel bezig bent met data in je projecten.</p>
+                                                    <p>Om voorbeelden te bekijken van wat de mogelijkheden zijn; <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.chartjs.org%2Fsamples%2Flatest%2F&sa=D&sntz=1&usg=AFQjCNGnntraNL7l31jkLyi2U4oFG4vEcw">klik hier</a>.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://nosir.github.io/cleave.js/">Cleave.js</a></h4>
+                                                    <p>Cleave.js is een library voor gebruikersinput. Met deze library kan je detecteren wanneer bepaalde soort gegeven data iets is, bijvoorbeeld wat voor soort creditcard iemand gebruikt. Daarnaast kan deze library ook tekst formateren op een logische manier aan de hand van wat voor informatie er in een input veld tevoorschijn moet komen.</p>
+                                                    <p>Om voorbeelden te bekijken van wat de mogelijkheden zijn; <a href="https://www.google.com/url?q=https%3A%2F%2Fnosir.github.io%2Fcleave.js%2F&sa=D&sntz=1&usg=AFQjCNH6wOh5Sac3kCP3Zx4D6710Io5W-g">klik hier</a>.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/mrdoob/three.js">Three.js</a></h4>
+                                                    <p>Three.js is een javascript library die zich focused op het gebruik maken van 3D in de browser. Three.js maakt gebruik van WebGL en geeft de mogelijkheid aan developers om 3D elementen in te laden. Hiernaast heeft het een heleboel tools om interactie te bieden tussen de gebruiker en de 3D omgeving.</p>
+                                                    <p>Om voorbeelden te bekijken van wat de mogelijkheden zijn; <a href="https://www.google.com/url?q=https%3A%2F%2Fthreejs.org%2F&sa=D&sntz=1&usg=AFQjCNFfHPXKGKjjWZJY1GPbcOUaN4iTAg">klik hier</a>.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/google/closure-library">Closure-library</a></h4>
+                                                    <p>De Closure library is een library die Google gebruikt voor meerdere van hun web applicaties die nu open source is. Deze library geeft toegang tot UI Widgets, controls, methodes voor het aanpassen van elementen in je pagina, animaties etc. Vergelijkbaar met andere grotere libraries biedt het een ruim aantal opties ten koste van wat er allemaal geladen moet worden.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/surveyjs/survey-library">Surveyjs</a></h4>
+                                                    <p>Surveyjs is een library die surveys maken makkelijker maakt. Zelf vind ik het een beetje een vreemde library aangezien een survey maken met javascript niet echt bepaald heel moeilijk is. Maar het is en blijft een hulp tool zodat je het niet zelf hoeft te doen. De main selling points zijn dat het niet afhankelijk is van een andere service.</p>
+                                                    <p>Om voorbeelden te bekijken van wat de mogelijkheden zijn; <a href="https://www.google.com/url?q=https%3A%2F%2Fsurveyjs.io%2FExamples%2FLibrary&sa=D&sntz=1&usg=AFQjCNHgq5a4QQrpirzJ6AvdmGgjHxlnTw">klik hier</a>.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/jacoborus/nanobar">Nanobar</a></h4>
+                                                    <p>Nanobar is een lichte library die simpele, maar effectieve laad balken genereerd. Je kan deze laadbalken makkelijk beinvloeden doormiddel van het gebruik van meegegeven methods. Daarnaast kan je de looks aanpassen met gebruik van CSS. In het algemeen super handig als je een simpele laadbalk nodig hebt voor een van je projecten/designs.</p>
+                                                    <p>Om voorbeelden te bekijken van wat de mogelijkheden zijn; <a href="http://www.google.com/url?q=http%3A%2F%2Fnanobar.jacoborus.codes%2F&sa=D&sntz=1&usg=AFQjCNG_An76qmwv6jneOl1XpFP82CJ75A">klik hier</a>.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/jakesgordon/javascript-state-machine">Javascript-state-machine</a></h4>
+                                                    <p>De Javascript state machine library maakt het makkelijker om met staten van een 'object' te werken, of eerder, een tekst. Zo kan je een aantal staten definieren van wat iets kan zijn en deze aanpassen met een automatisch gegenereerde methode. Je kan hier ook listeners mee laten genereren die iets kunnen doen wanneer de staat van jouw tekst/object veranderd.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/googlemaps/v3-utility-library">Google Maps - V3 utility library</a></h4>
+                                                    <p>Met deze library kan je zelf je eigen applicatie maken aan de hand van Google's Google Maps service. De library geeft je de mogelijkheid deze widget te maken en er ook mee te werken. Heel handig als je iets wilt doen met geolocatie.</p>
+                                                    <p>Om voorbeelden te bekijken van wat de mogelijkheden zijn; <a href="https://developers.google.com/maps/documentation/javascript/examples">klik hier</a>.</p>
+                                                </li>
+                                                <h4>BONUS:</h4>
+                                                <li>
+                                                    <h4><a href="https://www.typescriptlang.org/">Typescript</a></h4>
+                                                    <p>TypeScript is niet echt een library, maar wel iets wat verder gaat dan standaard Javascript. TypeScript is een taal gebaseerd op Javascript, maar veranderd het in een stricte taal. - De syntax is dus precies hetzelfde, met de toevoeging dat je met types werkt in plaats van abstracte variabelen. Je kan de code die je schrijft omzetten naar gewone Javascript door gebruik te maken van een compiler. Hier bestaan tools voor in de meeste editors in de vorm van extensies. Heel interessant om iets mee te doen.</p>
+                                                </li>
+                                                <li>
+                                                    <h4><a href="https://github.com/sorrycc/awesome-javascript">Awesome-javascript</a></h4>
+                                                    <p>Een collectie van javascript libraries. Leuk om mee te spelen, maar voor elke publicatie te groot omdat er zoveel onderdelen in zitten die je in het algemeen niet nodig hebt. Wel interessant om mee te spelen of doorheen te kijken als je benieuwd bent naar wat voor libraries er allemaal zijn.</p>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                            <h3>Week 2</h3>
+                            <div class="spoiler">
+                                <div class="content">
+                                    <p>In week 2 ben ik bezig geweest met het maken van poc’s van drie libraries van mijn keuze; Anime.js, Chart.js en Three.js.</p>
+                                    
+                                    <h4><a href="https://animejs.com/">Anime.js</a></h4>
+                                    <p>Met anime.js heb ik elementen een pad laten volgen dat ik gemaakt heb met Adobe Illustrator, deze elementen worden daarnaast ook nog eens willekeurig groter en kleiner terwijl ze over het pad heen reizen.</p>
+                                    <div class="advancedJavascript">
+                                        <div class="advancedJavascript pathFollower"><h1>U</h1></div>
+                                        <div class="advancedJavascript pathFollower"><h1>W</h1></div>
+                                        <div class="advancedJavascript pathFollower"><h1>U</h1></div>
+                                        <svg id="uwu_path" data-name="uwu path" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.89 55.88"><path id="main_path" data-name="main path" d="M120.72,2.52v33c0,5.11-2.73,8.57-8.13,8.57s-8.07-3.46-8.07-8.57v-33H90L80.22,31.25,66.39,0,52.71,31.25,42.85,2.52H28.37v33c0,5.11-2.74,8.57-8.14,8.57s-8.06-3.46-8.06-8.57v-33H0V36.36C0,49,8.86,55,20.23,55s20.31-6,20.31-18.65V32.27l9.65,23.61,16.2-30.32L82.67,55.88l9.68-23.69v4.17C92.35,49,101.21,55,112.59,55s20.3-6,20.3-18.65V2.52Z"/></svg>
+                                    </div>
+                                    <h5>Verklaring</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>Het animeren van elementen over een vectorpad is niet makkelijk te doen met standaard html/css/javascript, daarom heb ik de anime.js library gebruikt om dit voor elkaar te krijgen.</p>
+                                            <p>Het animeren van items over een vector pad is een mooie manier om artistieke elementen te verwerken op een webpagina, Dit is dan ook een simpele proof of concept van hoe dat eruit zou kunnen zien. Concepten die je hier ook op zou kunnen uitwerken is iets gelijksoortigs zoals knoppen die een pad volgen en ‘rondvliegen’ over een pagina. Het is zeker niet geschikt voor elke uitwerking, maar het is wel een mogelijkheid die je hebt met deze methode.</p>
+                                        </div>
+                                    </div>
+                                    <h5>Uitleg code</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>Als eerst declareer ik een variabele genaamd ‘path’, ik geef deze een waarde die gegenereerd wordt met anime.js aan de hand van het pad element van mijn vector bestand. Deze gebruik ik vervolgens in de animatie methodes van anime.js om mijn ‘targets’ te laten animeren op het juiste pad. Deze targets hebben zelf ook nog een h1 element erin die ik ook willekeurig van grootte heb laten veranderen, ik heb hierbij keyframes moeten gebruiken zodat de grootte van de h1 elementen niet overspringt naar een andere waarde op het eind van de animatie. De animatie zelf duurt 10 seconden.</p>
+                                            <p>Ik heb naast de animaties die ik heb gemaakt ook nog wat ruimte gecreëerd tussen de letters door een setTimeout te benutten. Dit heb ik gedaan omdat de ingebouwde delay en offset attributen van anime.js bij een loop altijd wachten tot alle elementen klaar zijn met hun animatie loop, wat ervoor zorgt dat de letters na hun ronde over het pad “wachten” op de rest van de elementen, dit was niet gewenst maar ook niet op te lossen met anime.js dus heb ik een setTimeout gebruikt om de animaties later te laten starten en een offset te maken.</p>
+                                        </div>
+                                    </div>
+                                    <h5>Code</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <pre><code>
+var path = anime.path('svg#uwu_path path');
+
+anime({
+    targets: '.advancedJavascript.pathFollower:nth-child(1)',
+    translateX: path('x'),
+    translateY: path('y'),
+    rotate: path("angle"),
+    easing: 'linear',
+    duration: 10000,
+    loop: true,
+});
+anime({
+    targets: '.advancedJavascript.pathFollower:nth-child(1) h1',
+    keyframes: [
+        { scale: 2, duration: 0 },
+        { scale: () => { return anime.random(2, 3); } },
+        { scale: 2 },
+    ],
+    easing: 'linear',
+    duration: 10000,
+    loop: true,
+});
+
+setTimeout(() => {
+    anime({
+        targets: '.advancedJavascript.pathFollower:nth-child(2)',
+        translateX: path('x'),
+        translateY: path('y'),
+        rotate: path("angle"),
+        easing: 'linear',
+        duration: 10000,
+        loop: true,
+    });
+    anime({
+        targets: '.advancedJavascript.pathFollower:nth-child(2) h1',
+        keyframes: [
+            { scale: 2, duration: 0 },
+            { scale: () => { return anime.random(2, 3); } },
+            { scale: 2 },
+        ],
+        easing: 'linear',
+        duration: 10000,
+        loop: true,
+    });
+}, 250);
+
+setTimeout(() => {
+    anime({
+        targets: '.advancedJavascript.pathFollower:nth-child(3)',
+        translateX: path('x'),
+        translateY: path('y'),
+        rotate: path("angle"),
+        easing: 'linear',
+        duration: 10000,
+        loop: true,
+    });
+    anime({
+        targets: '.advancedJavascript.pathFollower:nth-child(3) h1',
+        keyframes: [
+            { scale: 2, duration: 0 },
+            { scale: () => { return anime.random(2, 3); } },
+            { scale: 2 },
+        ],
+        easing: 'linear',
+        duration: 10000,
+        loop: true,
+    });
+}, 500);
+        </code></pre>
+                                        </div>
+                                    </div>
+
+                                    <h4><a href="https://www.chartjs.org/">Chart.js</a></h4>
+                                    <p>Met chart.js heb ik een grafiek gemaakt en de functionaliteit ontworpen om de content hiervan aan te passen.</p>
+                                    <div class="advancedJavascript">
+                                        <canvas id="ChartJS"></canvas>
+                                        <div>
+                                            <input value="12" type="number" onblur="changeChartValue(0, this.value)" onkeypress="changeChartValue(0, this.value, event)"/>
+                                            <input value="19" type="number" onblur="changeChartValue(1, this.value)" onkeypress="changeChartValue(1, this.value, event)"/>
+                                            <input value="3" type="number" onblur="changeChartValue(2, this.value)" onkeypress="changeChartValue(2, this.value, event)"/>
+                                            <input value="5" type="number" onblur="changeChartValue(3, this.value)" onkeypress="changeChartValue(3, this.value, event)"/>
+                                            <input value="2" type="number" onblur="changeChartValue(4, this.value)" onkeypress="changeChartValue(4, this.value, event)"/>
+                                            <input value="3" type="number" onblur="changeChartValue(5, this.value)" onkeypress="changeChartValue(5, this.value, event)"/>
+                                        </div>
+                                    </div>
+                                    <h5>Verklaring</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>Grafieken zijn een goede manier om data te visualiseren en hiermee ook duidelijker en interessanter te maken voor de eindgebruiker, ik heb Chart.js gebruikt om deze met gemak te visualiseren.</p>
+                                            <p>Het poc dat ik heb gemaakt duidt voornamelijk aan hoe je de grafieken die je genereert met Chart.js interactief kan maken. In dit geval door de waardes van de grafiek aan te passen. Dit is voor mij een eerste stap geweest en de tweede stap zou zijn om bijvoorbeeld te kunnen switchen tussen datasets.</p>
+                                        </div>
+                                    </div>
+                                    <h5>Uitleg code</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>Ik heb een variabele genaamd chartJSChart gemaakt waarin ik een Chart instantieer met het type grafiek, de data en de opmaak. Voor het maken van een chart moet je het een object meegeven met al deze instellingen en vervolgens gebruikt de chart constructor de informatie uit dit object om de chart te genereren.</p>
+                                            <p>Om de chart waardes te manipuleren heb ik een functie geschreven die 3 parameters accepteert, item is voor de het selecteren van de kolom, newValue is de nieuwe waarde die deze moet krijgen en event is voor het constateren en benutten van wanneer er op enter is geklikt bij een van de invoervelden. Vervolgens als op een van de invoervelden de focus kwijt gaat of er op enter wordt geklikt verandert de waarde van de chart en wordt deze visueel geupdate.</p>
+                                        </div>
+                                    </div>
+                                    <h5>Code</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <pre><code>
+var chartJSChart;
+
+function changeChartValue(item, newValue, event) {
+    if (event == null) { // Assume onblur
+        chartJSChart.data.datasets[0].data[item] = newValue;
+        chartJSChart.update();
+    } else {
+        if (event.keyCode === 13) {
+            chartJSChart.data.datasets[0].data[item] = newValue;
+            chartJSChart.update();
+        }
+    }
+}
+var chartCanvasContext = document.getElementById('ChartJS').getContext("2d");
+chartJSChart = new Chart(chartCanvasContext, {
+    type: 'bar',
+    data: {
+        labels: ['Rood', 'Blauw', 'Geel', 'Groen', 'Paars', 'Oranje'],
+        datasets: [{
+            label: 'kwantiteit',
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});                                        
+        </code></pre>
+                                        </div>
+                                    </div>
+
+                                    <h4><a href="https://threejs.org/">Three.js</a></h4>
+                                    <p>Met three.js heb ik een draaiende kubus gemaakt die van kleur verandert.</p>
+                                    <div id="ThreeJSExample" class="advancedJavascript"></div>
+                                    <h5>Verklaring</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>De mogelijkheid om 3D graphics te kunnen renderen in je browser is een fantastische feature die veel mogelijkheden biedt, of het nou is voor een portfolio van een 3D designer, of een webshop die zijn producten wilt laten zien op een moderne wijze, Three.js is een handige library die je deze functionaliteiten biedt binnen Javascript zonder de benodigdheid van een IDE zoals Unity terwijl het wel alle functies biedt die je binnen zo’n IDE hebt..</p>
+                                            <p>Het poc dat ik heb gemaakt met het Three.js library is een test om te zien hoe ik elementen binnen de 3D omgeving kan manipuleren, in dit geval heb ik een kubus die draait een regenboog effect gegeven, en de camera die in de scene staat dichterbij de kubus gezet om hier echt de focus op te leggen.</p>
+                                        </div>
+                                    </div>
+                                    <h5>Uitleg code</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>Ik heb een 3D scene gemaakt met behulp van de documentatie van Three.js, ik heb hier vervolgens aanpassingen op gedaan om ervoor te zorgen dat het past binnen mijn eigen omgeving. De achtergrond is zo bijvoorbeeld doorzichtig, het render venster heeft een ratio van 1:1 en wordt geplaatst op de juiste plek binnen mijn project. Vervolgens ben ik gaan kijken hoe ik een animatie kon toevoegen op de draaiende kubus, ik heb deze een kleuren animatie gegeven, hiervoor moest ik eerst uitzoeken hoe het materialen systeem van Three.js in elkaar zat.</p>
+                                        </div>
+                                    </div>
+                                    <h5>Code</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <pre><code>
+var threeJSCubeHuePos = 0;
+function setThreeJSCubeHuePos(newValue) {
+    threeJSCubeHuePos = newValue%360; return threeJSCubeHuePos;
+}
+
+var scene3D = new THREE.Scene();
+var containerElement = document.getElementById("ThreeJSExample");
+var camera = new THREE.PerspectiveCamera( 75, 320/320, 0.1, 1000 );
+
+var renderer = new THREE.WebGLRenderer({alpha: true});
+renderer.setSize( 320, 320 );
+containerElement.appendChild( renderer.domElement );
+
+var geometry = new THREE.BoxGeometry();
+var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+var cube = new THREE.Mesh( geometry, material );
+scene3D.add( cube );
+
+camera.position.z = 1.5;
+
+var animate = function () {
+    requestAnimationFrame( animate );
+
+    cube.rotation.x += 0.01;
+    cube.rotation.y += 0.01;
+    cube.material.color = new THREE.Color("hsl("+String(setThreeJSCubeHuePos(threeJSCubeHuePos+1))+", 100%, 50%)");
+
+    renderer.render( scene3D, camera );
+};
+
+animate();
+        </code></pre>
+                                        </div>
+                                    </div>
+
+                                    <h4>Github</h4>
+                                    <p>Al mijn werk voor week twee is uitgewerkt <a href="https://github.com/Burrely/Portfolio-website/blob/feature/advanced-development/Assets/Scripts/advancedDevelopment.js">in een script bestand genaamd “advancedDevelopment.js” binnen de “feature/advanced-development” branch in Git</a>.</p>
+                            
+                                </div>
+                            </div>
+
+                            <h3>Week 3</h3>
+                            <div class="spoiler">
+                                <div class="content">
+                                            
+                                    <p>In week 3 ben ik bezig geweest met het uitwerken van library implementatie op mijn portfolio. Dit kwam in mijn geval voor de opdracht van week 2 omdat ik het nodig had voor het bouwen van dit portfolio waarop ik dus ook deze opdracht op kwijt moest.</p>
+                                    <p>Ik heb Anime.js gebruikt om een animatie probleem op te lossen dat niet op te lossen viel met standaard html en css, namelijk de hoogte van een container in- en uitklappen.</p>
+                                    
+                                    <h4>Product</h4>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>De producten die ik heb gemaakt die gebruik maken van het in- en uitklappen zijn de artikels en de spoiler menu’s.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <h4>Het probleem</h4>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>De transitie van vlakken in de breedte met percentages werkt uitmuntend, maar als ik dit deed in de hoogte dan zou de transitie ‘verspringen’. Dit gebeurde ook met anime.js, maar omdat anime.js per frame de grootte aanpast kon ik door het eerst uitrekenen van de hoogte van de content in pixels ook de animatie in pixels doen in plaats van alleen met percentages. Uiteindelijk kon ik door de meegeleverde ‘complete’ events binnen anime.js ook de hoogte van de vlakken na de animatie op 100% zetten zodat als het venster naderhand nog groter zou worden, deze alsnog mee zou bewegen.</p>
+                                            <figure class="comparison">
+                                                <div>
+                                                    <img src="Assets/Graphics/voorbeeld artikel animatie FOUT.gif"/>
+                                                    <img src="Assets/Graphics/voorbeeld artikel animatie GOED.gif"/>
+                                                </div>
+                                                <figcaption>Een voor (links) en na (rechts) van de artikel transitie.</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    
+                                    <h4>Uitleg code</h4>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <p>Ik heb een class gemaakt voor beide de artikel handler en de spoiler handler om alle methodes en variabelen bij elkaar te houden, dit zorgt ervoor dat er zo min mogelijk conflicten zullen ontstaan. Het belangrijkste onderdeel van beide classes zit ‘m in de calculateArticleSize methode binnen de ArticleHandler waarmee ik de pixelhoogte bereken van alle content binnen een element. Deze methode heb ik uiteindelijk ook gebruikt bij de spoilerHandler, ik moet ‘m dus nog uit de ArticleHandler halen en een andere benaming geven. Met deze methode kan ik de animaties van de spoiler en artikel elementen maken met de anime methode. Bij de spoilerHandler is dit het meest fast-forward. Ik speel de animatie af en nadat deze afgerond is zet ik met de complete event de hoogte van het spoiler element op 100%, hetzelfde gebeurt bij de articleHandler met een tussenstap. Dit is omdat de artikel elementen voordat ze in de hoogte uitklappen ook eerst nog in de breedte moeten uitklappen. Naast het vastzetten van de hoogte op 100% wordt er ook een class toegevoegd aan het element nadat deze is uitgeklapt (of weggehaald wanneer deze is ingeklapt), hiermee wordt niet alleen gekeken of het element actief is, maar ook welke styling er via css betrekking heeft tot dat element naast de hoogte.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <h4>Code</h4>
+                                    <h5>Artikel</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <pre><code>
+class ArticleHander {
+    articles;
+    constructor() {}
+    
+    //
+    getDocumentArticles() {
+        this.articles = document.getElementsByTagName("article");
+        return this.articles;
+    }
+    
+    getDocumentActiveArticles() {
+        var returnArray = new Array();
+        Array.from(this.articles).forEach((article) => {
+            if (article.classList.contains("active")) { returnArray.push(article); }
+        })
+        return returnArray;
+    }
+    
+    assignActivation() {
+        Array.from(this.articles).forEach(article => {
+            article.onclick = () => {
+                this.animeAnimateArticle(article, true);
+                document.onclick = (event) => { // NEEDS REVISION, OVERRIDES ANY OTHER EVENTS.
+                    if (!article.contains(event.target)) { this.animeAnimateArticle(article, false); }
+                };
+            }
+        });
+    }
+    
+    // ANIME.JS
+    animeAnimateArticle(article, activate) {
+        if (activate) {
+            if (article.classList.contains("active")) { return; }
+            console.log("Activating " + article);
+            Array.from(this.getDocumentActiveArticles()).forEach((activeArticle) => {
+                this.animeAnimateArticle(activeArticle, false);
+            })
+            article.classList.add("active");
+            anime({
+                targets: article,
+                width: ["calc(50% - 20px)","100%"],
+                easing: 'easeInOutQuad',
+                duration: 600,
+                complete: () => {
+                    anime({
+                        targets: article,
+                        height: ["320px", this.constructor.calculateArticleSize(article)],
+                        easing: 'easeInOutQuad',
+                        complete: () => {
+                            article.style.height = "100%";
+                        }
+                    });
+                }
+            });
+        } else {
+            if (!article.classList.contains("active")) { return; }
+            console.log("Deactivating " + article);
+            anime({
+                targets: "article.active",
+                height: [this.constructor.calculateArticleSize(article), "320px"],
+                easing: 'easeInOutQuad',
+                complete: () => {
+                    article.classList.remove("active");
+                    anime({
+                        targets: article,
+                        width: ["100%","calc(50% - 20px)"],
+                        easing: 'easeInOutQuad',
+                        duration: 600,
+                        complete: () => {
+                        }
+                    });
+                }
+            });
+        }
+    }
+    
+    // UTIL
+    static calculateArticleSize(article) {
+        let articleSize = 0;
+        articleSize += parseInt(window.getComputedStyle(article).paddingBottom.substr(0,window.getComputedStyle(article).paddingBottom.length-2));
+        articleSize += parseInt(window.getComputedStyle(article).borderBottomWidth.substr(0,window.getComputedStyle(article).borderBottomWidth.length-2));
+        Array.from(article.children).forEach((element) => {
+            articleSize += parseInt(window.getComputedStyle(element).height.substr(0,window.getComputedStyle(element).height.length-2));
+            articleSize += parseInt(window.getComputedStyle(element).marginBottom.substr(0,window.getComputedStyle(element).marginBottom.length-2));
+        });
+        return articleSize.toString() + "px";
+    }
+    
+}
+    
+const articleHandler = new ArticleHander();
+    
+window.addEventListener('load', () => {
+    articleHandler.getDocumentArticles();
+    articleHandler.assignActivation();
+})                                        
+        </code></pre>
+                                        </div>
+                                    </div>
+
+                                    <h5>Spoiler</h5>
+                                    <div class="spoiler">
+                                        <div class="content">
+                                            <pre><code>
+class SpoilerHandler {
+    spoilers;
+    constructor() {}
+    
+    getSpoilers() {
+        this.spoilers = document.getElementsByClassName("spoiler");
+        return this.spoilers;
+    }
+    
+    static toggleSpoiler(element) {
+    
+        var contentHeight = ArticleHander.calculateArticleSize(element.children[0]);
+    
+        if (!element.classList.contains("active")) {
+            // Not active
+            anime({
+                targets: element,
+                height: ["0", contentHeight],
+                easing: 'easeInOutQuad',
+                duration: 500,
+                complete: () => {
+                    element.classList.add("active");
+                    element.style.height = "100%";
+                }
+            });
+        } else {
+            // Active
+            anime({
+                targets: element,
+                height: [contentHeight, "0"],
+                easing: 'easeInOutQuad',
+                duration: 500,
+                complete: () => {
+                    element.classList.remove("active");
+                }
+            });
+        }
+    }
+}
+    
+const spoilerHandler = new SpoilerHandler();
+    
+window.addEventListener('load', () => {
+    
+    Array.from(spoilerHandler.getSpoilers()).forEach( (spoiler) => {
+    
+        spoiler.addEventListener('click', (event) => {
+            if(event.target == spoiler) {
+                SpoilerHandler.toggleSpoiler(spoiler);
+            }
+        });
+    
+    });
+    
+});                                        
+        </code></pre>
+                                        </div>
+                                    </div>
+
+                                    <h4>Github</h4>
+                                    <p>Omdat ik voor week 3 was begonnen, en omdat de content die ik ontwikkelt heb voor mijn portfolio meer thuishoort bij het portfolio dan de specialisatie module, heb ik er voor gekozen om mijn werk in de bijpassende branches te verwerken, in dit geval, voor de artikelen <a href="https://github.com/Burrely/Portfolio-website/blob/feature/article-activation/Assets/Scripts/articleHandler.js">de feature/article-activation branch</a> en <a href="https://github.com/Burrely/Portfolio-website/blob/feature/spoiler/Assets/Scripts/spoilerHandler.js">de feature/spoiler branch</a> voor de spoiler elementen.</p>
+                                </div>
+                            </div>
+                            
+                        </section>
+                        <section>
+                            <h2>Leeruitkomsten</h2>
+                            <ul>
+                                <li>
+                                    <h3>Interactive media</h3>
+                                    <p>Producten zijn ontworpen in een iteratief proces (zie Github & feedback) en er is een professionele toolset benut (Adobe Illustrator).</p>
+                                </li>
+                                <li>
+                                    <h3>Development</h3>
+                                    <p>Ik heb poc’s gemaakt en uiteindelijk een prototype ontwikkelt op basis van een aantal voorbestemde eisen. Ik heb alles uitgewerkt in Github met als tool GitKraken.</p>
+                                </li>
+                                <li>
+                                    <h3>Professional identity</h3>
+                                    <p></p>Deze specialisatie past bij mij omdat ik houd van front-end development.</p>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Reflectie</h2>
+                            <p>
+                                Ik heb in deze specialisatie geleerd dat het niet altijd verkeerd is om met libraries te werken, gewoonlijk schuw ik hiervan af omdat ik vind dat de basis kennen belangrijker is dan libraries al het werk voor je te laten doen. Alhoewel ik na het doorlopen van deze specialisatie denk dat ik de basis al wel goed genoeg onder de knie heb om met libraries aan de slag te kunnen.
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Feedback</h2>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <h3>Erik Heijligers</h3>
+                                        <ul>
+                                            <li>Schrijf een duidelijke uitleg over hoe je op je keuzes bent gekomen en ondersteun deze.</li>
+                                            <li>Leg uit hoe de code werkt en hoe deze toepasselijk is.</li>
+                                            <li>Laat zien hoe je library een probleem oplost, met een voor en na is een pré.</li>
+                                            <li>De spoilers op de website zijn niet duidelijk genoeg, voeg hier nog een animatie aan toe of dergelijke die helder maken dat je er iets mee kan.</li>
+                                            <li>De verwijzing van je eerste placeholder website mag duidelijker en er moet beschreven worden waarom het bestaat.</li>
+                                            <li>Bij de verwijzing bij de placeholder site duidelijk aangeven waar je moet zijn om het Advanced Javascript onderdeel te kunnen vinden en welke browsers wel en niet werken.</li>    
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3>Sem Derksen</h3>
+                                        <ul>
+                                            <li>De transitie animatie voor het uit- en inklappen van het artikel kan sneller.</li>
+                                            <li>De spoiler elementen moeten nog iets duidelijker zijn zodat je weet dat je er iets mee kan.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3>Bernd-Jan Witkamp</h3>
+                                        <ul>
+                                            <li>Er zitten hier en daar wat taalfoutjes.</li>
+                                            <li>Maak duidelijk in je portfolio dat er niks van meerwaarde in het oude portfolio zit en dat het er alleen staat voor proces.</li>
+                                            <li>Het zou prettig zijn als de titels van de libraries linkjes waren naar de libraries in de longlist van week 1.</li>
+                                            <li>Code op portfolio idealiter in console achtig lettertype (iig een lettertype met statische karakter breedte zodat alles overzichtelijk en voorspelbaar uitlijnt).</li>
+                                            <li>Je kan ook nog direct naar de code linken op Git, anders is het nog wat zoeken en klikken (niet gebruiksvriendelijk).</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </p>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="">
+                    <div class="headerImage">
+                        <img src="Assets/Graphics/Concept pitch GG.png"/>
+                    </div>
+                    <section class="tagsList">
+                        <div class="button-primary"><h4>Communication</h4></div>
+                    </section>
+                    <section class="content">
+                        <section>
+                            <h1>Sprint 0 - Presentatie Glamorous Goat</h1>
+                            <p>
+                                De presentatie voor Glamorous Goat was een optioneel onderdeel voor ons project dat we hebben gedaan om onduidelijkheden over het project tijdig te verduidelijken.
+                            </p>
+                            <figure>
+                                <iframe width="100%" height="420" src="https://www.youtube-nocookie.com/embed/ynljskRIC9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <figcaption>Onze pitches bij Glamorous Goat.</figcaption>
+                            </figure>
+                        </section>
+                        <section>
+                            <h2>Proces</h2>
+                            <p>
+                                We vonden de opdracht nog wat onduidelijk dus hebben we als team besloten om onderzoek te doen naar een aantal mogelijke concepten. Hieruit hadden we drie concepten gehaald die we in groepen van twee wouden gaan presenteren aan onze stakeholder; Glamorous Goat.                      
+                            </p>
+                            <h3>Concept</h3>
+                            <p>
+                                Ons concept was om een grijswatersysteem te ontwikkelen voor huishoudens waarmee we restwater kunnen hergebruiken, beide binnen het eigen huis en binnen een gemeente.
+                            </p>
+                            <h3>Voorbereiding</h3>
+                            <p>
+                                Na het ontwikkelen van concepten hebben we contact opgenomen met Glamorous Goat om een afspraak te maken voor onze pitches. Na een bevestiging te hebben gekregen zijn we begonnen met het uitwerken van onze pitches hebben we een middag geoefend, daarna hebben we onze pitches aan elkaar gepresenteerd en feedback op elkaar gegeven. Op de dag van de pitch hebben we dit nog een keer gedaan terwijl we <a href="https://docs.google.com/document/d/1KsmA0Bg9yo4Gad5xrez5O-ygVZNmjnXWY4vTdCj0gzg">de feedback</a> meegenomen hadden ter voorbereiding.
+                            </p>
+                            <h3>De pitches</h3>
+                            <p>
+                                De pitches zelf verliepen soepel. We hadden kleine problemen met de hardware waarmee we de pitches opgenomen hadden ondanks we deze van tevoren hadden gechecked, maar uiteindelijk verliep het toch allemaal soepel. We hebben ook <a href="https://docs.google.com/document/d/1KsmA0Bg9yo4Gad5xrez5O-ygVZNmjnXWY4vTdCj0gzg">al onze feedback</a> gedocumenteerd.
+                            </p>
+                            <h3>Conclusie</h3>
+                            <p>
+                                Het is ons gelukt om een antwoord te krijgen op onze vraag; Glamorous Goat wou een applicatie design voor een water meetsysteem. Geen ander concept ondanks ze onze concepten wel interessant vonden.
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Leeruitkomsten</h2>
+                            <ul>
+                                <li>
+                                    <h3>Communication</h3>
+                                    We hebben met onze stakeholders contact genomen voor duidelijkheid over onze opdracht, dit aan de hand van <a href="https://docs.google.com/presentation/d/1FachWclYXkjhe9h9WyjQSO-e8SEKrvFa6eKrpONvib0/edit?usp=sharing">een presentatie</a> die we hebben gedocumenteerd met video en audio. Daarnaast hebben we <a href="https://docs.google.com/document/d/1KsmA0Bg9yo4Gad5xrez5O-ygVZNmjnXWY4vTdCj0gzg">de feedback</a> gedocumenteerd.
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Reflectie</h2>
+                            <p>
+                                Wat ik geleerd heb van dit project is dat je vaak dingen over het hoofd ziet ondanks je denkt dat je wel goed zit. Meerdere iteraties en het herhaaldelijk vragen van feedback heeft geleid tot een zeer sterk product, in dit geval een pitch.
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Feedback</h2>
+                            <ul>
+                                <li>
+                                    <h3>Team - Voorbereiding pitch</h3>
+                                    <ul>
+                                        <li>
+                                            Luider / Duidelijker spreken.                                            
+                                        </li>
+                                        <li>
+                                            Termen terug laten komen.                                           
+                                        </li>
+                                        <li>
+                                            Duidelijke voorbeelden geven van wat het product inhoudt.                                          
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>Jo-An Kamp - Voorbereiding pitch</h3>
+                                    <ul>
+                                        <li>
+                                            Verder uitwerken op het hergebruik van grijswater.                                         
+                                        </li>
+                                        <li>
+                                            Gebruik het bovenstaande als een twist in je verhaal.                                       
+                                        </li>
+                                        <li>
+                                            Gebruik cijfers om je punt sterker te maken.                                       
+                                        </li>
+                                        <li>
+                                            Maak een keuze tussen hergebruik of besparing.                                  
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>Glamorous Goat</h3>
+                                    <ul>
+                                        <li>
+                                            Interessante invalshoek                                        
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
+                </article>
+
+                <!--
+                <article class="">
+                    <div class="headerImage">
+                        <img src="Assets/Graphics/discord.png"/>
+                    </div>
+                    <section class="tagsList">
+                        <div class="button-primary"><h4>Voorbeeld</h4></div>
+                    </section>
+                    <section class="content">
+                        <section>
+                            <h1>Voorbeeld artikel</h1>
+                            <p>
+                                Dit artikel is bedoeld als een voorbeeld voor de animatie effecten, specifiek over de voorbeeld effecten van het uitklappen van een artikel in de hoogte, dit loopt namelijk met HTML en CSS niet zo soepel, en springt hierbij open. Terwijl dit bij de uitvoering met Anime.js niet zo is.
+                            </p>
+                            <figure>
+                                <img src="Assets/Graphics/discord.png"/>
+                                <figcaption>Voorbeeld afbeelding.</figcaption>
+                            </figure>
+                        </section>
+                        <section>
+                            <h2>Voorbeeld kopje.</h2>
+                            <p>Dit is nogsteeds een onderdeel van het voorbeeld waarbij je het verschil kan zien tussen de HTML/CSS en Anime.js uitwerkingen</p>
+                        </section>
+                    </section>
+                </article>
+                
+                -->
+                
+                <article class="">
+                    <div class="headerImage">
+                        <img src="Assets/Graphics/Infographic Gamification & Storytelling 1x.png"/>
+                    </div>
+                    <section class="tagsList">
+                        <div class="button-primary"><h4>Interactive media</h4></div>
+                        <div class="button-primary"><h4>Design</h4></div>
+                        <div class="button-primary"><h4>Research</h4></div>
+                    </section>
+                    <section class="content">
+                        <section>
+                            <h1>Portfolio - Styling</h1>
+                            <p>
+                                Het moodboard geeft het algemene idee en thema aan van het design dat ik wil uitwerken in mijn eigen portfolio site.
+                                Deze voorbeelden zullen dus meer thematisch gericht zijn dan de voorbeeld portfolio’s waarbij de focus vooral lag op layout van portfolio’s.
+                                Het doel van dit moodboard is om vooral te kijken naar kleurgebruik en designs (details dat het geheel maken).
+                            </p>
+                            <figure>
+                                <img src="Assets/Graphics/moodboard portfolio site.png"/>
+                                <figcaption>Het moodboard dat ik heb ontworpen voor deze fase van het design onderzoek.</figcaption>
+                            </figure>
+                        </section>
+                        <section>
+                            <h2>Proces</h2>
+                            <p>
+                                Ik ben begonnen met het bedenken wat ik nodig had voor mijn design en website thema. 
+                                - Aan de hand van de kennis die ik had van mijn vorige opleiding wist ik dat een moodboard het perfecte medium is voor het definieren van een algemeen thema. 
+                                Dus dat is waar ik ben begonnen!
+                                <br/>
+                                Bij het maken van het moodboard had ik een aantal termen nodig die ik wou dat mijn portfolio uitstralen; ‘clean’, ‘modern’ en ‘whitespace’. 
+                                Dit zijn allemaal heel generieke termen die opzich niet echt veel meerwaarde hebben, maar wel in de context van het ontwerpen van een moodboard. 
+                                Ik heb hiervoor Google images gebruikt om wat inspirerende afbeeldingen te vinden en heb deze samengevoegd met behulp van Paint.net. 
+                                Het moodboard heeft voor mijn de stijl van mijn portfolio design zeker een heel stuk verstevigt.
+                                
+                                Na het ontwerpen van mijn moodboard ben ik begonnen met het vaststellen van een kleurenthema. 
+                                In het kleurenschema wou ik per se oranje verwerken. 
+                                Dit is een persoonlijk aspect omdat oranje mijn favoriete kleur is, het straalt namelijk energie uit zonder aggressief over te komen, 
+                                het is daarnaast ook een beetje speels. Ik heb deze kleur samen verwerkt naar één kleurenthema met een lichte variatie van oranje, 
+                                een heel donker bruine en twee wit tinten. Ik heb hiervoor Adobe Color gebruikt.
+                                
+                                Ik heb het kleurenthema toegepast op een van de voorbeeld websites die ik in een vorige fase heb gevonden (Matt Farley’s portfolio site) en kwam al snel een probleem tegen; het was te druk. 
+                                Na wat feedback te hebben gevraagd aan een medestudent en wat eigen brainstormen in combinatie met het moodboard dat ik heb gemaakt, 
+                                heb ik een tweede kleurenthema gemaakt, het kleurenthema vervangt de lichtere tint oranje met een rood oranje, 
+                                deze kleur gebruik ik vervolgens voor gradients. Deze design keuze maakt het geheel niet alleen rustiger, maar ook strakker en modern. 
+                                Ik heb dit kleurenthema Red Fox genoemd en heb dit ook ontworpen in Adobe Color.
+                                
+                                Als je meer wilt lezen over dit proces, bekijk dan het <a href="https://docs.google.com/document/d/1qw31ptF8J9AW5AIRRRKXRCUj8IBvsDi3Gbw6RTrbOec">officiele document!</a>
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Leeruitkomsten</h2>
+                            <p>
+                                De leeruitkomsten die ik in dit project kan aantonen zijn als volgt;
+                            </p>
+                            <ul>
+                                <li>
+                                    Interactive media<br/>
+                                    Ik heb in iteraties gewerkt om een kleurenschema zo goed mogelijk uit te werken, 
+                                    ik heb feedback die ik uit vorige iteraties heb gekregen verder verwerkt in mijn volgende kleurenschemas. 
+                                    Ik heb voorbeelden gebruikt van andere media producten a.d.h.v het moodboard. 
+                                    En heb een meerdere prototypes gemaakt van mijn portfolio design.
+                                </li>
+                                <li>
+                                    Design<br/>
+                                    Ik heb gebruik gemaakt van meerdere professionele toolsets, zoals Adobe Color en Adobe Illustrator. 
+                                    Hiermee heb ik visuele ontwerpen gemaakt. 
+                                    Deze ontwerpen zijn in feedback beschreven als van hoogwaardige kwaliteit.                                    
+                                </li>
+                                <li>
+                                    Research<br/>
+                                    Ik heb een nieuwschierig en kritische houding gehad bij het ontwerpen van een stijl door feedback te vragen en hier iets mee te doen, 
+                                    hierbij heb ik ook gebruik gemaakt van lab onderzoek door mijn stijl te testen op een ander portfolio.                                    
+                                </li>
+                            </ul>
+                            <p>
+                                Ik heb bij het maken van dit project een aantal termen gekozen en hierbij bronnen opgezocht die mij inspireren voor mijn eigen creatieve uitwerking. 
+                                Ik heb hierbij geleerd dat je niet altijd precies vind wat je in je hoofd hebt, 
+                                maar wel dat je verder kan spelen met het materiaal dat je vindt, en dat je daar het beste uit moet halen. 
+                                Hierdoor ben ik flexiebeler geworden in mijn creatieve omgang als media designer.
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Reflectie</h2>
+                            <p>
+                                Ik heb bij het maken van dit project een aantal termen gekozen en hierbij bronnen opgezocht die mij inspireren voor mijn eigen creatieve uitwerking. 
+                                Ik heb hierbij geleerd dat je niet altijd precies vind wat je in je hoofd hebt, 
+                                maar wel dat je verder kan spelen met het materiaal dat je vindt, en dat je daar het beste uit moet halen. 
+                                Hierdoor ben ik flexiebeler geworden in mijn creatieve omgang als media designer.
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Feedback</h2>
+                            <p>
+                                Placeholder content.
+                            </p>
+                        </section>
+                    </section>
+                </article>
+
+                <!--
+                <article>
+                    <div class="headerImage">
+                        <img src="Assets/Graphics/moodboard portfolio site.png"/>
+                    </div>
+                    <section class="tagsList">
+                        <div class="button-primary"><h4>Interactive media</h4></div>
+                        <div class="button-primary"><h4>Design</h4></div>
+                        <div class="button-primary"><h4>Research</h4></div>
+                    </section>
+                    <section class="content">
+                        <h1>Portfolio - Styling</h1>
+                        <p>
+                            Het moodboard geeft het algemene idee en thema aan van het design dat ik wil uitwerken in mijn eigen portfolio site.
+                            Deze voorbeelden zullen dus meer thematisch gericht zijn dan de voorbeeld portfolio’s waarbij de focus vooral lag op layout van portfolio’s.
+                            Het doel van dit moodboard is om vooral te kijken naar kleurgebruik en designs (details dat het geheel maken).
+                        </p>
+                    </section>
+                </article>
+
+                <article>
+                    <div class="headerImage">
+                        <img src="Assets/Graphics/moodboard portfolio site.png"/>
+                    </div>
+                    3
+                </article>
+
+                <article>
+                    <div class="headerImage">
+                        <img src="Assets/Graphics/moodboard portfolio site.png"/>
+                    </div>
+                    4
+                </article>
+                -->
+
+
+            </section>
+        </main>
+    </body>
+</html>
