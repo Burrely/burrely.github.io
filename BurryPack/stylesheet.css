@@ -1,0 +1,90 @@
+.modpackContainer {
+	width:fit-content;
+	padding:0px 20px 0px 20px;
+	margin:10px;
+	border:1px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 10px;
+	background-color: #282828;
+}
+
+
+#ModpackCategories li ul {
+	border: 1px grey solid;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+	padding-right: 14px;
+	max-width: 320px;
+	background-color: #222;
+}
+
+#ModpackCategories li ul li {
+	padding-bottom: 1px;
+}
+
+#ModpackCategories li ul li li ul {
+	display: block;
+	border: none;
+	padding: 0px 0px 0px 0px;
+    font-size: .8em;
+	line-height: 1.4;
+	color: #aaa;
+}
+
+#ModpackCategories li ul li li ul li {
+	border: none;
+	padding: 0px 0px 0px 0px;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: lightslategray;
+}
+
+i {
+	display: block;
+	font-size: .8em;
+	line-height: 1.1em;
+}
+
+ul#ModpackCategories {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: repeat(6, auto);
+  	list-style: none;
+  	padding: 0;
+}
+
+ul#ModpackCategories > li > h3 {
+	display: inline-block;
+}
+
+ul#ModpackCategories > li.active > h3 {
+	color: lightsalmon;;
+}
+
+ul#ModpackCategories > li:last-child > h3 {
+	margin-bottom:16px
+}
+
+ul#ModpackCategories > li > h3:hover {
+	color: salmon;
+	cursor: pointer;
+}
+
+ul#ModpackCategories > li.active {
+	max-height: fit-content;
+	overflow: auto;
+}
+
+ul#ModpackCategories > li {
+	max-height: 40px;
+	overflow-y: hidden;
+    min-width: 360px;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently*/
+}

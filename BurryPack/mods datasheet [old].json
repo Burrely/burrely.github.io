@@ -1,0 +1,449 @@
+{
+    "Burrely's Modpack": {
+        "Category": {
+            "Base Mods": [
+                {
+                    "Name": "Antique Atlas",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Astral Sorcery",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Atum 2 - Return to the Sands",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Baubles",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Botania",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Future Versions",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Galacticraft",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Immersive Engineering",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Just Enough Items",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": "Might move to QOL section."
+                },
+                {
+                    "Name": "Millenaire",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "MJ's Raw Ores Backport",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": "Addition to Future Versions mod to drop iron and gold ore items instead of ore blocks."
+                },
+                {
+                    "Name": "Modular Powersuits",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Mowzies Mobs",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Open Glider",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "PlayerRevive",
+                    "Forge URL": "",
+                    "Dependencies": ["Creativecore"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Refined Storage",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Serene Seasons",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Thaumcraft",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Thaumic Augmentation",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Thaumic Inventory Scanning",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Thaumic Periphery",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "The Aether II",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Tinker's Construct",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Trash cans",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Twilight Forest",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Waystones",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Wesley's Roguelike Dungeons",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Zombie Awareness",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                }
+            ],
+            "World Generation": [
+                {
+                    "Name": "Biomes 'o Plenty",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Caves",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Mineshafts",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Portals",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Strongholds",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Dungeons",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Desert Temples",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Ocean Monuments",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Better Witch Huts",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Bridges",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's Extras",
+                    "Forge URL": "",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": ""
+                }
+            ],
+            "QOL - Items": [
+                {
+                    "Name": "Akashic Tome",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Chest Transporter",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Chisel",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "RealBench",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Signpost",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Sophisticated Backpacks",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                }
+            ],
+            "QOL": [
+                {
+                    "Name": "Antique Atlas Overlay - Minimap",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Appleskin",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Atlas Extras",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Aqua Acrobatics",
+                    "Forge URL": "",
+                    "Dependencies": ["Mixin 0.7-0.8 Compatibility", "MixinBooter"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Better Foliage",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Dynamic Surroundings",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Goprone",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "ESSENTIAL mod",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Fluidlogged API",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Modern Splash",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Mouse Tweaks",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Optifine",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Pick Up Notifier",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Quark",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "RPG Parties",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Universal Tweaks",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": "Requires edits in config"
+                },
+                {
+                    "Name": "Vanilla Future Texture",
+                    "Forge URL": "https://www.curseforge.com/minecraft/texture-packs/vanilla-future-texture",
+                    "Dependencies": [],
+                    "Notes": "Makes 1.12 version blocks into future version textures to not feel out of place with the Future Version items/blocks"
+                },
+                {
+                    "Name": "WAILA",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                }
+            ],
+            "Performance": [
+                {
+                    "Name": "Clumps",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "CensoredASM",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "FoamFix",
+                    "Forge URL": "",
+                    "Dependencies": [],
+                    "Notes": ""
+                }
+            ],
+            "Libraries": [
+                {
+                    "Name": "Creativecore",
+                    "Forge URL": "",
+                    "Dependencies": ["PlayerRevive"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "YUNG's API",
+                    "Forge URL": "",
+                    "Dependencies": [
+                        "YUNG's Better Caves",
+                        "YUNG's Better Mineshafts",
+                        "YUNG's Better Portals",
+                        "YUNG's Better Strongholds",
+                        "YUNG's Better Dungeons",
+                        "YUNG's Better Desert Temples",
+                        "YUNG's Better Ocean Monuments",
+                        "YUNG's Better Witch Huts",
+                        "YUNG's Bridges",
+                        "YUNG's Extras"
+                    ],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Mixin 0.7-0.8 Compatibility",
+                    "Forge URL": "",
+                    "Dependencies": ["Aqua Acrobatics"],
+                    "Notes": ""
+                },
+                {
+                    "Name": "MixinBooter",
+                    "Forge URL": "",
+                    "Dependencies": ["Aqua Acrobatics"],
+                    "Notes": ""
+                }
+            ]
+        }
+    }
+}
