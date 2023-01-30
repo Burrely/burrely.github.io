@@ -4,6 +4,7 @@ var datasheets;
 var datasheet;
 var modpackNameElement = document.getElementById("ModpackName");
 var modpackCategoriesElement = document.getElementById("ModpackCategories");
+const excludedModCountPrefix = "##";
 
 
 // Methods
@@ -25,20 +26,21 @@ async function fetchDatasheet(url) {
 }
 
 function printDatasheetToConsole() {
-    console.log(datasheets["Burrely\'s Modpack"]);
-    datasheet = datasheets["Burrely\'s Modpack"];
+    console.log(datasheets["BurryPack 1.1"]);
+    datasheet = datasheets["BurryPack 1.1"];
 }
 
 function printDatasheetToDocument() {
-    //Set name
+    //Set modpack name
     modpackNameElement.innerHTML = Object.keys(datasheets)[0];
-    //Create list by category
+    //Create Category lists
     Object.entries(datasheet.Category).forEach(category => {
-        console.log(category[0]); // name
+        console.log(category[0] + " [" + category[1].length + "]"); // name
         // Create an unordered list per category
         let categoryListItem = document.getElementById("ModpackCategories").appendChild(document.createElement("li"))
         let listItemText = categoryListItem.appendChild(document.createElement("h3"));
         listItemText.appendChild(document.createTextNode(category[0]));
+        categoryListItem.appendChild(document.createElement("h3")).appendChild(document.createTextNode("\xa0[" + category[1].length + "]"));
         var categoryModList = categoryListItem.appendChild(document.createElement("ul"));
         listItemText.onclick = ( () => {
             categoryListItem.classList.toggle("active");
@@ -87,11 +89,9 @@ function CreateModItem(name, url, dependencies, notes) {
             dependencyList.appendChild(dependencyListItem);
         });
         listItem.appendChild(dependencyList);
-        console.log(dependencies);
     }
     //Create notes element
     if (notes != "") {
-        listItem.appendChild(document.createElement("br"));
         let notesElement = document.createElement("i");
         notesElement.appendChild(document.createTextNode("Notes: " + notes));
         listItem.appendChild(notesElement);

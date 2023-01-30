@@ -1,5 +1,5 @@
 {
-    "Burrely's Modpack": {
+    "BurryPack 1.1": {
         "Category": {
             "Base Mods": [
                 {
@@ -17,6 +17,12 @@
                 {
                     "Name": "Atum 2 - Return to the Sands",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/atum",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
+                    "Name": "Backpacked",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/backpacked",
                     "Dependencies": [],
                     "Notes": ""
                 },
@@ -45,6 +51,12 @@
                     "Notes": "\"Legacy edition\""
                 },
                 {
+                    "Name": "Gravestone mod",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/gravestone-mod",
+                    "Dependencies": [],
+                    "Notes": ""
+                },
+                {
                     "Name": "Immersive Engineering",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/immersive-engineering",
                     "Dependencies": [],
@@ -66,12 +78,12 @@
                     "Name": "MJ's Raw Ores Backport",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/mjs-raw-ores",
                     "Dependencies": [],
-                    "Notes": "Addition to Future Versions mod to drop iron and gold ore items instead of ore blocks."
+                    "Notes": "Addition to Future Versions mod to drop iron and gold ore items instead of ore blocks. \nConfirmed to work as intended, Fortune enchantment drops more ores."
                 },
                 {
                     "Name": "Modular Powersuits",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/modular-powersuits",
-                    "Dependencies": [],
+                    "Dependencies": ["Numina"],
                     "Notes": ""
                 },
                 {
@@ -147,12 +159,6 @@
                     "Notes": ""
                 },
                 {
-                    "Name": "Trash cans",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/trash-cans",
-                    "Dependencies": [],
-                    "Notes": ""
-                },
-                {
                     "Name": "Twilight Forest",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
                     "Dependencies": [],
@@ -195,54 +201,6 @@
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge",
                     "Dependencies": ["YUNG's API"],
                     "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Better Portals",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-portals",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Better Strongholds",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Better Dungeons",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Better Desert Temples",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Better Ocean Monuments",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Better Witch Huts",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Bridges",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-bridges",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
-                },
-                {
-                    "Name": "YUNG's Extras",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-extras",
-                    "Dependencies": ["YUNG's API"],
-                    "Notes": ""
                 }
             ],
             "QOL - Items": [
@@ -275,12 +233,6 @@
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/signpost",
                     "Dependencies": [],
                     "Notes": ""
-                },
-                {
-                    "Name": "Sophisticated Backpacks",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
-                    "Dependencies": [],
-                    "Notes": ""
                 }
             ],
             "QOL": [
@@ -288,7 +240,7 @@
                     "Name": "Antique Atlas Overlay - Minimap",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/antique-atlas-overlay-minimap",
                     "Dependencies": [],
-                    "Notes": ""
+                    "Notes": "!! Not available for 1.12.2 (Incompatible)"
                 },
                 {
                     "Name": "Appleskin",
@@ -309,20 +261,8 @@
                     "Notes": ""
                 },
                 {
-                    "Name": "Better Foliage",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/better-foliage",
-                    "Dependencies": [],
-                    "Notes": "!! Break the pack !!"
-                },
-                {
                     "Name": "Dynamic Surroundings",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings",
-                    "Dependencies": [],
-                    "Notes": ""
-                },
-                {
-                    "Name": "Goprone",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/goprone",
                     "Dependencies": [],
                     "Notes": ""
                 },
@@ -385,12 +325,6 @@
                     "Forge URL": "https://www.curseforge.com/minecraft/texture-packs/vanilla-future-texture",
                     "Dependencies": [],
                     "Notes": "Makes 1.12 version blocks into future version textures to not feel out of place with the Future Version items/blocks"
-                },
-                {
-                    "Name": "WAILA",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/waila",
-                    "Dependencies": [],
-                    "Notes": ""
                 }
             ],
             "Performance": [
@@ -403,12 +337,6 @@
                 {
                     "Name": "CensoredASM",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/lolasm",
-                    "Dependencies": [],
-                    "Notes": ""
-                },
-                {
-                    "Name": "FoamFix",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod",
                     "Dependencies": [],
                     "Notes": ""
                 }
@@ -448,6 +376,104 @@
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/mixin-booter",
                     "Dependencies": ["Aqua Acrobatics"],
                     "Notes": ""
+                },
+                {
+                    "Name": "Numina",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/numina",
+                    "Dependencies": ["Modular Powersuits"],
+                    "Notes": ""
+                }
+            ],
+            "##Removed": [
+                {
+                    "Name": "Better Foliage",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/better-foliage",
+                    "Dependencies": [],
+                    "Notes": "Crashes on launch."
+                },
+                {
+                    "Name": "FoamFix",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod",
+                    "Dependencies": [],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "Goprone",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/goprone",
+                    "Dependencies": [],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "Sophisticated Backpacks",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
+                    "Dependencies": [],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "Supermartijn642s-core-lib",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib",
+                    "Dependencies": ["Trash cans"],
+                    "Notes": "Crashes on launch."
+                },
+                {
+                    "Name": "Trash cans",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/trash-cans",
+                    "Dependencies": ["Supermartijn642s-core-lib"],
+                    "Notes": "Crashes on launch."
+                },
+                {
+                    "Name": "WAILA",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/waila",
+                    "Dependencies": [],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Better Portals",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-portals",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Better Strongholds",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Better Dungeons",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Better Desert Temples",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Better Ocean Monuments",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Better Witch Huts",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Bridges",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-bridges",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "YUNG's Extras",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/yungs-extras",
+                    "Dependencies": ["YUNG's API"],
+                    "Notes": "Not Available for 1.12.2"
                 }
             ]
         }

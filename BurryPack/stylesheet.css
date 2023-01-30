@@ -18,6 +18,7 @@
 	padding-right: 14px;
 	max-width: 320px;
 	background-color: #222;
+	margin-bottom: 16px;
 }
 
 #ModpackCategories li ul li {
@@ -31,14 +32,21 @@
     font-size: .8em;
 	line-height: 1.4;
 	color: #aaa;
+	margin-bottom: 0px;
 }
 
 #ModpackCategories li ul li li ul li {
 	border: none;
+	list-style: none;
 	padding: 0px 0px 0px 0px;
 	font-size: 1em;
+	font-style: italic;
 	line-height: 1.4em;
 	color: lightslategray;
+}
+
+#ModpackCategories li ul li li ul li::before {
+	content: "- ";
 }
 
 i {
@@ -50,13 +58,22 @@ i {
 ul#ModpackCategories {
 	display: grid;
 	grid-auto-flow: column;
-	grid-template-rows: repeat(6, auto);
+	grid-template-rows: repeat(16, auto);
   	list-style: none;
   	padding: 0;
 }
 
 ul#ModpackCategories > li > h3 {
 	display: inline-block;
+	margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+ul#ModpackCategories > li > h3+h3,
+ul#ModpackCategories > li.active > h3+h3,
+ul#ModpackCategories > li > h3:hover+h3,
+ul#ModpackCategories > li > h3+ h3:hover {
+	color: #aaa;
 }
 
 ul#ModpackCategories > li.active > h3 {
@@ -78,7 +95,7 @@ ul#ModpackCategories > li.active {
 }
 
 ul#ModpackCategories > li {
-	max-height: 40px;
+	max-height: 32px;
 	overflow-y: hidden;
     min-width: 360px;
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -87,4 +104,14 @@ ul#ModpackCategories > li {
        -moz-user-select: none; /* Old versions of Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently*/
+}
+
+#ModpackCategories li ul li li i::before {
+	display: block;
+    content: "";
+    /* border: solid white; */
+    margin-right: 80px;
+    border-top: solid lightgrey 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
