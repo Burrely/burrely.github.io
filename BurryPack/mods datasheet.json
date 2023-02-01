@@ -309,12 +309,6 @@
                     "Notes": ""
                 },
                 {
-                    "Name": "RPG Parties",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/rpg-parties",
-                    "Dependencies": [],
-                    "Notes": ""
-                },
-                {
                     "Name": "Universal Tweaks",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
                     "Dependencies": [],
@@ -402,6 +396,12 @@
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/goprone",
                     "Dependencies": [],
                     "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "RPG Parties",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/rpg-parties",
+                    "Dependencies": [],
+                    "Notes": ""
                 },
                 {
                     "Name": "Sophisticated Backpacks",
