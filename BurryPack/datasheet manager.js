@@ -26,8 +26,8 @@ async function fetchDatasheet(url) {
 }
 
 function printDatasheetToConsole() {
-    console.log(datasheets["BurryPack 1.4"]);
-    datasheet = datasheets["BurryPack 1.4"];
+    console.log(datasheets["BurryPack 1.5"]);
+    datasheet = datasheets["BurryPack 1.5"];
 }
 
 function printDatasheetToDocument() {
