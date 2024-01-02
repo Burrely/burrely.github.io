@@ -1,5 +1,5 @@
 {
-    "BurryPack 1.5": {
+    "BurryPack 1.6": {
         "Category": {
             "Base Mods": [
                 {
@@ -81,12 +81,6 @@
                     "Notes": ""
                 },
                 {
-                    "Name": "MJ's Raw Ores Backport",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/mjs-raw-ores",
-                    "Dependencies": [],
-                    "Notes": "Addition to Future Versions mod to drop iron and gold ore items instead of ore blocks. \nConfirmed to work as intended, Fortune enchantment drops more ores."
-                },
-                {
                     "Name": "Modular Powersuits",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/modular-powersuits",
                     "Dependencies": ["Numina"],
@@ -153,12 +147,6 @@
                     "Notes": ""
                 },
                 {
-                    "Name": "The Aether II",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/aether-ii",
-                    "Dependencies": [],
-                    "Notes": ""
-                },
-                {
                     "Name": "Tinker's Construct",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct",
                     "Dependencies": [],
@@ -173,12 +161,6 @@
                 {
                     "Name": "Waystones",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/waystones",
-                    "Dependencies": [],
-                    "Notes": ""
-                },
-                {
-                    "Name": "Wesley's Roguelike Dungeons",
-                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/wesleys-roguelike-dungeons#:~:text=Wesley's%20Roguelike%20Dungeons%20is%20mainly,%2C%20bosses%2C%20loot%20and%20ambience.",
                     "Dependencies": [],
                     "Notes": ""
                 },
@@ -404,6 +386,12 @@
                     "Notes": "Not Available for 1.12.2"
                 },
                 {
+                    "Name": "MJ's Raw Ores Backport",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/mjs-raw-ores",
+                    "Dependencies": [],
+                    "Notes": "The ores don't work in Tinker's Construct's smelteries, making these ores rather inconvenient and incompatible. (Addition to Future Versions mod to drop iron and gold ore items instead of ore blocks. \nConfirmed to work as intended, Fortune enchantment drops more ores.)"
+                },
+                {
                     "Name": "RPG Parties",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/rpg-parties",
                     "Dependencies": [],
@@ -422,6 +410,12 @@
                     "Notes": "Crashes on launch."
                 },
                 {
+                    "Name": "The Aether II",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/aether-ii",
+                    "Dependencies": [],
+                    "Notes": "Empty dimension, not interesting enough to be worth the extra resources / item clutter."
+                },
+                {
                     "Name": "Trash cans",
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/trash-cans",
                     "Dependencies": ["Supermartijn642s-core-lib"],
@@ -432,6 +426,12 @@
                     "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/waila",
                     "Dependencies": [],
                     "Notes": "Not Available for 1.12.2"
+                },
+                {
+                    "Name": "Wesley's Roguelike Dungeons",
+                    "Forge URL": "https://www.curseforge.com/minecraft/mc-mods/wesleys-roguelike-dungeons#:~:text=Wesley's%20Roguelike%20Dungeons%20is%20mainly,%2C%20bosses%2C%20loot%20and%20ambience.",
+                    "Dependencies": [],
+                    "Notes": "Would generate after world generation, resulting in the destruction of player-made constructions."
                 },
                 {
                     "Name": "YUNG's Better Portals",
